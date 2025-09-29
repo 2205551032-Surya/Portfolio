@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Surya Pratama — Portfolio</title>
+  <meta name="description" content="DevOps Engineer / Student — Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-dark">
+  <!-- ====== Navbar ====== -->
+ <header class="navbar" id="top">
+    <div class="container nav-inner">
+      <a class="brand" href="#hero">Portofolio<span>.</span></a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a class="btn btn-sm btn-primary" href="assets/surya_cv.pdf" download>Download CV</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme toggle (sun/moon) -->
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+          <!-- Sun -->
+          <svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 4V2m0 20v-2M4.93 4.93 3.52 3.52m16.96 16.96-1.41-1.41M4 12H2m20 0h-2M4.93 19.07 3.52 20.48m16.96-16.96-1.41 1.41M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z" fill="currentColor"/>
+          </svg>
+          <!-- Moon -->
+          <svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 0 1 11.21 3 7.5 7.5 0 1 0 21 12.79Z" fill="currentColor"/>
+          </svg>
+        </button>
+
+        <!-- Hamburger -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-controls="nav" aria-expanded="false">
+          <svg class="hamburger" viewBox="0 0 24 24" aria-hidden="true">
+            <line class="l1" x1="4" y1="6"  x2="20" y2="6"/>
+            <line class="l2" x1="4" y1="12" x2="20" y2="12"/>
+            <line class="l3" x1="4" y1="18" x2="20" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ====== Hero ====== -->
+  <section class="hero" id="hero" aria-label="Intro section">
+    <div class="container hero-inner">
+      <div class="hero-card">
+        <img class="avatar" src="assets/I Putu Gede Surya Pratama.png" alt="Profile photo" />
+        <h1 class="headline">Surya Pratama</h1>
+        <p class="subhead">Web Dev | IT Student</p>
+        <div class="socials">
+          <a class="social" href="https://wa.me/6287765495607" target="_blank" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a class="social" href="suryapratamaigede123@gmail.com" target="_blank" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="social" href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fi-putu-gede-surya-pratama-99abb2277%2F%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaf8Dr_CzOO96O2NTPzI4si0G79QY3DB17afY_2TlwvqZY_kRYQRBDDcQCfBaQ_aem_HWfkrUB5rWZZU1kRK4wlUw&e=AT1w9F0k3ppaoGtbbPAOyLkzUMa2PuTTxDC1WfnDKB5egzFHQdPKDYTpUifG9uHFpVFrabC7-jPOO-H_op2S6cW-D7y4sflNZfBPBWYRsw" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a class="social" href="https://github.com/2205551032-Surya" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+      </div>
+      </div>
+      <!-- <div class="hero-bg" aria-hidden="true"></div> -->
+    </div>
+  </section>
+
+  <!-- ====== About ====== -->
+  <section id="about" class="section">
+    <div class="container grid">
+      <div class="card">
+        <h2>Hello There!</h2>
+<p>
+  7th-semester Information Technology student at Udayana University, focused on
+  <strong>Full-Stack Web Development</strong>. I build user-friendly front-ends and reliable back-ends.
+</p>       
+<p>I'm seeking internships or freelance opportunities where I can contribute while learning from real-world teams.</p>
+        <div class="meta">
+          <div><strong>Name:</strong> I Putu Gede Surya Pratama</div>
+          <div><strong>Phone:</strong> +62 87765495607</div>
+          <div><strong>Email:</strong> suryapratamaigede123@gmail.com</div>
+          <div><strong>Study:</strong> Udayana University</div>
+          <div><strong>Region:</strong> Karangasem, Bali</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Projects ====== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects">
+        <article class="project-card">
+          <img src="assets//manajemen-hotel.png" alt="manajemen hotel" loading="lazy">
+          <h3>Manajemen Hotel</h3>
+          <p>Use C Language, make interface and logic program</p>
+          <a class="link" href="https://github.com/2205551032-Surya/manajemen-hotel" target="_blank" rel="noopener">View Repository</a>
+        </article>
+        <article class="project-card">
+          <img src="assets//perumkm.png" alt="Per UMKM" loading="lazy">
+          <h3>UI UX Design Project Per UMKM</h3>
+          <p>Make prototype design user interface and user experience.</p>
+          <a class="link" href="https://www.figma.com/design/sv0w4clmjqWnW50b4IcSOk/Projek-Mockup?node-id=0-1&p=f&t=g7t4zdct6Hqmh43D-0" target="_blank" rel="noopener">View Repository</a>
+        </article>
+        <article class="project-card">
+          <img src="assets//to-do-list.png" alt="To Do List" loading="lazy">
+          <h3>To Do List Application</h3>
+          <p>make project app with Flutter </p>
+          <a class="link" href="#" target="_blank" rel="noopener">View Repository</a>
+        </article>
+          <article class="project-card">
+          <img src="assets/profile-website-desa.png" alt="Cloud architecture" loading="lazy">
+          <h3>Profile Website</h3>
+          <p>Make a Website for Profile with HTML, CSS, Javascript </p>
+          <a class="link" href="https://github.com/2205551032-Surya/Profile_Kabupaten_karangasem_Website" target="_blank" rel="noopener">View Repository</a>
+        </article>
+          <article class="project-card">
+          <img src="assets/gis-website.png" alt="Gis Website" loading="lazy">
+          <h3>Sistem Informasi Geografis Berbasis Website</h3>
+          <p>Make a Website Bali Region with marker, line, polygon use React Vite and Express JS </p>
+          <a class="link" href="#" target="_blank" rel="noopener">View Repository</a>
+        </article>
+           <article class="project-card">
+          <img src="assets/analisis-sentimen.png" alt="analisis sentimen" loading="lazy">
+          <h3>Sentimen Analysis Velocity TikTok (Big Data)</h3>
+          <p>Using Python to Analysis sentimen positif, negatif, netral, and also visualization with tableu  </p>
+          <a class="link" href="https://drive.google.com/drive/folders/1VyQjJ9uXqAW4zF8GQXHAYRcIrnkurPNB" target="_blank" rel="noopener">View Repository</a>
+        </article>
+          <article class="project-card">
+          <img src="assets//ml-prediksi emas.png" alt="Prediksi Emas" loading="lazy">
+          <h3>Machine Learning with Gold Prediction Website Based</h3>
+          <p>Using Python, React, to make website and API from Gold Finance with LSTM and XGBOOST Algorithm</p>
+          <a class="link" href="#" target="_blank" rel="noopener">View Repository</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="exp-grid"><!-- parent untuk garis titik -->
+      <article class="time-card">
+        <div class="time-card-head">
+          <h3>Cloud Computing Cohort</h3>
+          <span class="org">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</span>
+          <span class="badge">Sep 2024 – Jan 2025</span>
+        </div>
+        <ul>
+          <li>Cloud Computing, Backend Web Development, Google Cloud Platform (GCP).</li>
+          <li>DevOps, JavaScript Programming.</li>
+        </ul>
+      </article>
+
+      <article class="time-card">
+        <div class="time-card-head">
+          <h3>Member of UI UX Disigner Division </h3>
+          <span class="org">Technology Artisan Udayana</span>
+          <span class="badge">Feb 2023 – Dec 2023</span>
+        </div>
+        <ul>
+          <li>Design, prototype, Interface, and Figma.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- ====== Skills ====== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills">
+        <div class="skill"><img src="assets/icons/react.svg" alt=""><span>React</span></div>
+        <div class="skill"><img src="assets/icons/next.svg" alt=""><span>Next JS</span></div>
+        <div class="skill"><img src="assets/icons/python.svg" alt=""><span>Python</span></div>
+        <div class="skill"><img src="assets/icons/node.svg" alt=""><span>Node</span></div>
+        <div class="skill"><img src="assets/icons/google-cloud.svg" alt=""><span>Google Cloud</span></div>
+        <div class="skill"><img src="assets/icons/github.svg" alt=""><span>GitHub</span></div>
+        <div class="skill"><img src="assets/icons/js.svg" alt=""><span>JavaScript</span></div>
+        <div class="skill"><img src="assets/icons/node.svg" alt=""><span>Node.js</span></div>
+        <div class="skill"><img src="assets/icons/laravel.svg" alt=""><span>Laravel</span></div>
+        <div class="skill"><img src="assets/icons/mysql.svg" alt=""><span>MySQL</span></div>
+        <div class="skill"><img src="assets/icons/mongo.svg" alt=""><span>MongoDB</span></div>
+        <div class="skill"><img src="assets/icons/tailwind.svg" alt=""><span>Tailwind</span></div>
+        <div class="skill"><img src="assets/icons/bash.svg" alt=""><span>Bash</span></div>
+        <div class="skill"><img src="assets/icons/kotlin.svg" alt=""><span>Kotlin</span></div>
+        <div class="skill"><img src="assets/icons/flutter.svg" alt=""><span>flutter</span></div>
+        <div class="skill"><img src="assets/icons/wordpress.svg" alt=""><span>Wordpress</span></div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Surya Pratama</span>
+    </div>
+  </footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="script.js"></script>
+</body>
+</html>
